@@ -1,71 +1,20 @@
-/_ GUÍA DE INSTALACIÓN PASO POR PASO _/
-Cuando quieras empezar un proyecto nuevo de Vite + Tailwind CSS:
+# Welcome to my Portfolio 2026
 
-1. Copia y pega la carpeta template-vite-tailwind y cámbiale el nombre a tu nuevo proyecto (ej: landing-page-2).
-2. Abre esa nueva carpeta en VS Code.
-3. Abre la terminal y escribe solo este comando: npm install
-   (Este comando leerá tu archivo package.json y reinstalará todo lo necesario automáticamente).
-4. Escribe npm run dev y... ¡a programar!
+A high-performance personal portfolio built with **Vite**, **Tailwind CSS v4**, and a focus on clean, modern UI/UX. Featuring smooth scrolling, glassmorphism components, and a mobile-first responsive design.
 
----
+<img width="2200" height="1142" alt="image" src="https://github.com/user-attachments/assets/f8c4fdf0-38bf-4ba5-86af-fed93427b0d9" />
 
-Una vez terminado el pryecto...
-/_ GUÍA PARA SUBIR PROYECTOS VITE + TAILWIND A GITHUB _/
 
-1. CONFIGURACIÓN DE VITE (Archivo: vite.config.js)
-   Si no lo tienes, créalo y pega todo esto (ajustando el nombre de tu repo):
+## 🚀 Tech Stack
 
-import { defineConfig } from 'vite'
-export default defineConfig({
-base: '/nombre-de-tu-repositorio/',
-build: {
-rollupOptions: {
-input: {
-main: './index.html',
-location: './location.html',
-},
-},
-},
-})
+* **Frontend:** Vite + Tailwind CSS v4
+* **Styling:** Modern CSS (Sticky headers, Scrim overlays, Glassmorphism)
+* **Architecture:** Modular @utilities for clean, reusable code
+* **Focus:** Blockchain & Full-stack Web Development
 
-2. ARCHIVO PARA DESPLIEGUE (Ruta: .github/workflows/deploy.yml)
-   Crea estas carpetas y dentro este archivo con este contenido exacto:
+## ✨ Key Features
 
-name: Deploy Vite Site
-
-on:
-push:
-branches: [main]
-
-permissions:
-contents: read
-pages: write
-id-token: write
-
-jobs:
-build-and-deploy:
-runs-on: ubuntu-latest
-steps:
-
-- name: Checkout
-  uses: actions/checkout@v4
-
-3. COMANDOS DE TERMINAL PARA SUBIR EL PROYECTO
-   Escribe estos comandos uno por uno en tu terminal:
-
-git init
-git add .
-git commit -m "Primer commit"
-git branch -M main
-git remote add origin
-git push -u origin main
-
-4. PASO FINAL EN LA WEB DE GITHUB
-   Entra a tu repositorio en GitHub.com.
-   Haz clic en Settings.
-   Haz clic en Pages (menú izquierdo).
-   En "Source", selecciona: GitHub Actions.
-
-5. RECUERDA SIEMPRE:
-   Los enlaces deben llevar un punto delante: ./location.html.
-   Si creas una página nueva, agrégala a la lista de "input" en el archivo vite.config.js del paso 1.
+* **Responsive Navigation:** Sticky header that intelligently hides on scroll.
+* **Project Showcase:** Immersive cards with hover effects and glassmorphism UI.
+* **Optimized Performance:** Lightning-fast load times thanks to Vite's build tool.
+* **Smooth UX:** Native CSS smooth-scrolling and interactive skill badges.
