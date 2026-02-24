@@ -18,3 +18,9 @@ A high-performance personal portfolio built with **Vite**, **Tailwind CSS v4**, 
 * **Project Showcase:** Immersive cards with hover effects and glassmorphism UI.
 * **Optimized Performance:** Lightning-fast load times thanks to Vite's build tool.
 * **Smooth UX:** Native CSS smooth-scrolling and interactive skill badges.
+
+## 📬 Contact
+
+Let's build something together!
+* **LinkedIn:** [Jaume Falcó](https://www.linkedin.com/in/jaume-falco-r/)
+* **GitHub:** [@falcojau](https://github.com/falcojau)
