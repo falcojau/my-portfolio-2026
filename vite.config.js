@@ -1,11 +1,6 @@
+// vite.config.js
 import { defineConfig } from 'vite'
+
 export default defineConfig({
-base: '/nombre-de-tu-repositorio/',
-build: {
-rollupOptions: {
-input: {
-main: './index.html',
-},
-},
-},
+  base: '/my-portfolio-2026/', 
 })

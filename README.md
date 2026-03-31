@@ -57,7 +57,7 @@ git init
 git add .
 git commit -m "Primer commit"
 git branch -M main
-git remote add origin
+git remote add origin https://github.com/tu-usuario/tu-repositorio.git
 git push -u origin main
 
 4. PASO FINAL EN LA WEB DE GITHUB
@@ -69,3 +69,35 @@ git push -u origin main
 5. RECUERDA SIEMPRE:
    Los enlaces deben llevar un punto delante: ./location.html.
    Si creas una página nueva, agrégala a la lista de "input" en el archivo vite.config.js del paso 1.
+
+Una vez subido a GitHub...
+/_ Guía de Despliegue: Vite + GitHub Pages _/
+
+1. Configuración del Proyecto (Solo la primera vez)
+   Vite Config: En vite.config.js, añadir el nombre del repositorio.
+   import { defineConfig } from 'vite'
+
+export default defineConfig({
+base: '/nombre-del-repo/',
+})
+
+2. Instalar dependencia:
+
+(Bash)
+npm install -D gh-pages
+
+3. Scripts en package.json: Añadir estos dos comandos:
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"
+
+4. Comando de Publicación
+   Cada vez que hagas cambios y quieras que se vean en la web, ejecuta:
+   (Bash)
+   npm run deploy
+
+5. Configuración en la Web de GitHub:
+   Entra en tu repo en la web de GitHub.
+   Settings -> Pages.
+   Source: Deploy from a branch.
+   Branch: Selecciona gh-pages y / (root).
+   Save. (Tarda unos 2-3 minutos en aparecer el link verde).
