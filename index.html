@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./images/icons/briefcase.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Jaume Falcó</title>
-    <link rel="stylesheet" href="./src/style.css">
-  </head>
-  <body>
-    <header class="absolute top-0 w-full">
-      <nav class="sticky top-5 z-50">
-        <div class="nav-logos 
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./images/icons/briefcase.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Jaume Falcó</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <header class="absolute top-0 w-full">
+    <nav class="sticky top-5 z-50">
+      <div class="nav-logos 
                   bg-blue-400/20
                   backdrop-blur-md 
                   border border-white/20 
@@ -21,281 +23,302 @@
                   md:gap-10
                   relative z-20
                   max-w-fit mx-auto">
-          <a href="#projects"><img src="./images/icons/projects-logo.svg" alt="Projects Logo" class="h-8"></a>
-          <a href="#skills"><img src="./images/icons/trophy-logo.svg" alt="Trophy Logo" class="h-8"></a>
-          <a href="#contact"><img src="./images/icons/envelope.svg" alt="Envelope Logo" class="h-8"></a>
-          <a href="https://github.com/falcojau"><img src="./images/icons/github-logo.svg" alt="GitHub Logo" class="h-8"></a>
-          <a href="https://www.linkedin.com/in/jaume-falco-r/"><img src="./images/icons/linkedin-logo.svg" alt="Linked In Logo" class="h-8"></a>
-        </div>
-      </nav>
-    </header>
+        <a href="#projects"><img src="./images/icons/projects-logo.svg" alt="Projects Logo" class="h-8"></a>
+        <a href="#skills"><img src="./images/icons/trophy-logo.svg" alt="Trophy Logo" class="h-8"></a>
+        <a href="#contact"><img src="./images/icons/envelope.svg" alt="Envelope Logo" class="h-8"></a>
+        <a href="https://github.com/falcojau"><img src="./images/icons/github-logo.svg" alt="GitHub Logo"
+            class="h-8"></a>
+        <a href="https://www.linkedin.com/in/jaume-falco-r/"><img src="./images/icons/linkedin-logo.svg"
+            alt="Linked In Logo" class="h-8"></a>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <div class="hero-top 
+  <main>
+    <div class="hero-top 
                   bg-radial-gradient-white-pink 
                   h-lvh w-full 
                   flex flex-col items-center justify-center
                   relative z-10">
-        <h2 class="text-6xl font-bold bg-linear-gradient-blue-purple bg-clip-text text-transparent mb-5">Jaume Falcó</h2>
-        <p class="text-xl font-light text-gray-secondary">Full Stack Web Developer & AI Enthusiast</p>
-        <div class="arrow-down absolute bottom-10 left-1/2 -translate-x-1/2">
-          <img src="./images/icons/arrow-down.svg" alt="Arrow Down" class="animate-bounce">
-        </div>
+      <h2 class="text-6xl font-bold bg-linear-gradient-blue-purple bg-clip-text text-transparent mb-5">Jaume Falcó</h2>
+      <p class="text-xl font-light text-gray-secondary">Full Stack Web Developer & AI Enthusiast</p>
+      <div class="arrow-down absolute bottom-10 left-1/2 -translate-x-1/2">
+        <img src="./images/icons/arrow-down.svg" alt="Arrow Down" class="animate-bounce">
       </div>
+    </div>
 
-      <div id="projects" class="projects-section 
+    <div id="projects" class="projects-section 
                                 py-20 mx-5">
 
-        <div class="projects-section-title flex items-center justify-center">
-          <h2 class="title-primary mb-10">My Projects</h2>
-        </div>
-
-        <div class="projects grid grid-cols-1 md:grid-cols-2 gap-8">
-
-          <article class="project6 project-card">
-            <div>
-              <img src="./images/screenshots/dog.png"
-                  alt="The Dog Gallery"
-                  class="project-img">
-            </div>
-
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20">
-              <h4 class="text-2xl font-bold mb-2">The Dog Gallery</h4>
-              <p class="text-md shadow-2xl mb-6">A responsive React application that fetches dog images from The Dog API</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/dog-gallery/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/dog-gallery">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project5 project-card">
-            <div>
-              <img src="./images/screenshots/memory-game-screenshot.png"
-                  alt="Memory Game"
-                  class="project-img">
-            </div>
-
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20">
-              <h4 class="text-2xl font-bold mb-2">Memory Game</h4>
-              <p class="text-md shadow-2xl mb-6">An interactive Memory Card Game built with HTML, CSS, and Vanilla JavaScript to match pairs, featuring dynamic card flipping and CSS animations</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/memory-game/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/memory-game">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-placeholder project-card">
-            <div>
-              <img src="./images/screenshots/habit-tracker-app.png"
-                  alt="Habit Tracker App"
-                  class="project-img">
-            </div>
-
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20">
-              <h4 class="text-2xl font-bold mb-2">Habit Tracker App</h4>
-              <p class="text-md shadow-2xl mb-6">A Vanilla JavaScript habit tracking app with full CRUD functionality to create, read, update and delete daily habits</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/habit-tracker-app/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/habit-tracker-app">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project3 project-card">
-            <div>
-              <img src="./images/screenshots/project3.0.png"
-                  alt="Nombre del Proyecto"
-                  class="project-img">
-            </div>
-
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20">
-              <h4 class="text-2xl font-bold mb-2">Technology Academy Platform</h4>
-              <p class="text-md shadow-2xl mb-6">Created a simulated academy platform with dedicated sections for courses, news, and user management</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/conquer-academy-web/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/conquer-academy-web">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project1 project-card">
-            <div>
-              <img src="./images/screenshots/project5.png"
-                  alt="Nombre del Proyecto"
-                  class="project-img">
-            </div>
-
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20 ">
-              <h4 class="text-2xl font-bold mb-2">Modern Art Gallery</h4>
-              <p class="text-md shadow-2xl mb-6">Developed a responsive two-page mini-site for an art gallery website</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/modern-art-gallery/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/modern-art-gallery">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project2 project-card">
-            <div>
-              <img src="./images/screenshots/project2.png"
-                  alt="Nombre del Proyecto"
-                  class="project-img">
-            </div>
-
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20">
-              <h4 class="text-2xl font-bold mb-2">Elearning Landing Page</h4>
-              <p class="text-md shadow-2xl mb-6">Built a responsive mini-site for an online school</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/skilled-landing-page/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/skilled-landing-page">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="project4 project-card">
-            <div>
-              <img src="./images/screenshots/project4.png" 
-                  alt="Nombre del Proyecto"
-                  class="project-img">
-            </div>
-            
-            <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
-            <div class="relative z-20">
-              <h4 class="text-2xl font-bold mb-2">GathSessions</h4>
-              <p class="text-md shadow-2xl mb-6">Built a header for a co-working company</p>
-              <div class="buttons-project1 flex gap-6">
-                <div class="button1-project opacity-80">
-                  <a href="https://falcojau.github.io/Header-Gathsession/">View Project</a>
-                </div>
-                <div class="button2-project">
-                  <a href="https://github.com/falcojau/Header-Gathsession">Github</a>
-                </div>
-              </div>
-            </div>
-          </article>
-        </div>
-
+      <div class="projects-section-title flex items-center justify-center">
+        <h2 class="title-primary mb-10">My Projects</h2>
       </div>
 
-      <div id="skills" class="skills-section 
+      <div class="projects grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <article class="project7 project-card">
+          <div>
+            <img src="./images/screenshots/cv-screener.png" alt="CV Screener" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">CV Screener</h4>
+            <p class="text-md shadow-2xl mb-6">CV submission app built with FastAPI, Docker, Resend and simple frontend — automated emails to both candidate and HR with PDF attached</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/cv-screener/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/cv-screener">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project6 project-card">
+          <div>
+            <img src="./images/screenshots/dog.png" alt="The Dog Gallery" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">The Dog Gallery</h4>
+            <p class="text-md shadow-2xl mb-6">A responsive React application that fetches dog images from The Dog API
+            </p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/dog-gallery/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/dog-gallery">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project5 project-card">
+          <div>
+            <img src="./images/screenshots/memory-game-screenshot.png" alt="Memory Game" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">Memory Game</h4>
+            <p class="text-md shadow-2xl mb-6">An interactive Memory Card Game built with HTML, CSS, and Vanilla
+              JavaScript to match pairs, featuring dynamic card flipping and CSS animations</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/memory-game/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/memory-game">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-placeholder project-card">
+          <div>
+            <img src="./images/screenshots/habit-tracker-app.png" alt="Habit Tracker App" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">Habit Tracker App</h4>
+            <p class="text-md shadow-2xl mb-6">A Vanilla JavaScript habit tracking app with full CRUD functionality to
+              create, read, update and delete daily habits</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/habit-tracker-app/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/habit-tracker-app">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project3 project-card">
+          <div>
+            <img src="./images/screenshots/project3.0.png" alt="Nombre del Proyecto" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">Technology Academy Platform</h4>
+            <p class="text-md shadow-2xl mb-6">Created a simulated academy platform with dedicated sections for courses,
+              news, and user management</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/conquer-academy-web/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/conquer-academy-web">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project1 project-card">
+          <div>
+            <img src="./images/screenshots/project5.png" alt="Nombre del Proyecto" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20 ">
+            <h4 class="text-2xl font-bold mb-2">Modern Art Gallery</h4>
+            <p class="text-md shadow-2xl mb-6">Developed a responsive two-page mini-site for an art gallery website</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/modern-art-gallery/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/modern-art-gallery">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project2 project-card">
+          <div>
+            <img src="./images/screenshots/project2.png" alt="Nombre del Proyecto" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">Elearning Landing Page</h4>
+            <p class="text-md shadow-2xl mb-6">Built a responsive mini-site for an online school</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/skilled-landing-page/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/skilled-landing-page">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project4 project-card">
+          <div>
+            <img src="./images/screenshots/project4.png" alt="Nombre del Proyecto" class="project-img">
+          </div>
+
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10"></div>
+          <div class="relative z-20">
+            <h4 class="text-2xl font-bold mb-2">GathSessions</h4>
+            <p class="text-md shadow-2xl mb-6">Built a header for a co-working company</p>
+            <div class="buttons-project1 flex gap-6">
+              <div class="button1-project opacity-80">
+                <a href="https://falcojau.github.io/Header-Gathsession/">View Project</a>
+              </div>
+              <div class="button2-project">
+                <a href="https://github.com/falcojau/Header-Gathsession">Github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+    <div id="skills" class="skills-section 
                               bg-linear-gradient-white-blue
                               py-20 scroll-mt-20">
 
-        <div class="skills-section-title flex items-center justify-center">
-          <h2 class="title-primary mb-10">Skills & Technologies</h2>
-        </div>
+      <div class="skills-section-title flex items-center justify-center">
+        <h2 class="title-primary mb-10">Skills & Technologies</h2>
+      </div>
 
-        <div class="skills
+      <div class="skills
                     mx-5 font-jetbrains
-                    grid grid-cols-2 
-                    md:grid-cols-4 gap-8 md:mx-10 
+                    grid grid-cols-2
+                    md:grid-cols-5 gap-8 md:mx-10
                     lg:gap-12 lg:mx-15">
 
-          <div class="skill-1 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2">Python</h4>
-          </div>
+        <div class="skill-1 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">Python</h4>
+        </div>
 
-          <div class="skill-2 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2 ">Django</h4>
-          </div>
+        <div class="skill-2 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2 ">Django</h4>
+        </div>
 
-          <div class="skill-3 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2">HTML</h4>
-          </div>
+        <div class="skill-3 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2 ">FastAPI</h4>
+        </div>
 
-          <div class="skill-4 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2 ">CSS</h4>
-          </div>
+        <div class="skill-4 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">Docker</h4>
+        </div>
 
-          <div class="skill-5 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2">JavaScript</h4>
-          </div>
+        <div class="skill-5 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">HTML</h4>
+        </div>
 
-          <div class="skill-6 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2">React</h4>
-          </div>
+        <div class="skill-6 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2 ">CSS</h4>
+        </div>
 
-          <div class="skill-6 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2">SQL</h4>
-          </div>
+        <div class="skill-7 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">JavaScript</h4>
+        </div>
 
-          <div class="skill-6 button-skill bg-white">
-            <h4 class="text-xl font-medium mb-2">TypeScript</h4>
-          </div>
+        <div class="skill-8 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">React</h4>
+        </div>
 
+        <div class="skill-9 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">PostgreSQL</h4>
+        </div>
+
+        <div class="skill-10 button-skill bg-white">
+          <h4 class="text-xl font-medium mb-2">TypeScript</h4>
         </div>
 
       </div>
 
+    </div>
 
-      <div id="contact" class="contact-section
+
+    <div id="contact" class="contact-section
                                 py-20 scroll-mt-20">
 
-        <div class="contact-section-title flex flex-col items-center justify-center">
-          <h2 class="title-primary mb-10">Let's Connect</h2>
-          <p class="text-gray-secondary mb-5 mx-5 text-center">
-            Have a project in mind? Let's create something amazing together.
-          </p>
-          <div class="location-section flex gap-3">
-            <img src="./images/icons/location.svg" alt="Location Logo">
-            <p class="text-gray-secondary">Barcelona, ES - Available for work</p>
-          </div>
+      <div class="contact-section-title flex flex-col items-center justify-center">
+        <h2 class="title-primary mb-10">Let's Connect</h2>
+        <p class="text-gray-secondary mb-5 mx-5 text-center">
+          Have a project in mind? Let's create something amazing together.
+        </p>
+        <div class="location-section flex gap-3">
+          <img src="./images/icons/location.svg" alt="Location Logo">
+          <p class="text-gray-secondary">Barcelona, ES - Available for work</p>
         </div>
+      </div>
 
-        <div class="bottom-div">
-          <div class="contact-resume 
+      <div class="bottom-div">
+        <div class="contact-resume 
                       flex justify-center items-center
                       gap-4 my-10 md:gap-8">
-            <div class="mail-to">
-              <a href="mailto:jaumefalco93@gmail.com" class="button3-project">
-                Say Hello
-              </a>
-            </div>
-            <div class="resume">
-              <a href="./CV.pdf" class="button3-project">
-                View Resume
-              </a>
-            </div>
+          <div class="mail-to">
+            <a href="mailto:jaumefalco93@gmail.com" class="button3-project">
+              Say Hello
+            </a>
+          </div>
+          <div class="resume">
+            <a href="./CV.pdf" class="button3-project">
+              View Resume
+            </a>
           </div>
         </div>
-
       </div>
-    </main>
 
-    <footer>
+    </div>
+  </main>
 
-    </footer>
-  </body>
+  <footer>
+
+  </footer>
+</body>
+
 </html>
