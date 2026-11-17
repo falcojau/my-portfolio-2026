@@ -47,6 +47,14 @@
          active:scale-95;
 }
 
+@utility button3-chip {
+  @apply rounded-full bg-transparent text-blue-700 py-1.5 px-3 text-sm font-medium
+         border border-blue-400/60
+         shadow-sm shadow-blue-300/30
+         transition-all duration-300 ease-in-out
+         hover:bg-blue-50 hover:border-blue-500 hover:shadow-blue-400/40 hover:shadow-md;
+}
+
 /* Gradientes personalizados */
 @utility bg-linear-gradient-blue-purple {
   background-image: linear-gradient(90deg, rgba(43, 21, 150, 1) 0%, rgba(57, 57, 184, 1) 44%, rgba(120, 8, 158, 1) 100%);
